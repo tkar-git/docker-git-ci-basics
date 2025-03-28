@@ -69,7 +69,7 @@ sudo docker pull hello-world
 ```bash
 sudo docker run hello-world
 ```
-- If you are unable to run the `hello-world` image, you might need to start the Docker service. MacOS users can do this by typing `docker open` in the terminal. Linux users can start the Docker service by running:
+- If you are unable to run the `hello-world` image, you might need to start the Docker service. MacOS users should check if the Docker Desktop Application is Running. Linux users can start the Docker service by running:
 ```bash
 sudo systemctl start docker
 ```
@@ -86,4 +86,4 @@ groups
 sudo usermod -aG docker $USER
 ```
 - You will need to log out and log back in for the changes to take effect.
-- You can now proceed with the Docker commands mentioned in the [Docker Introduction](../docker/README.md) section.
+- You can now retry the verification steps.
