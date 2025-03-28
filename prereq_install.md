@@ -5,10 +5,12 @@ This section provides instructions for installing the prerequisites for the cour
 If something is unclear or you encounter any issues, please contact the course instructor.
 ## MacOS users
 MacOS users are recommended to install Docker Desktop for Mac. The instructions for the same can be found [here](https://docs.docker.com/desktop/mac/install/).
+Post installation of Docker Desktop, proceed with the verification steps mentioned in [Verify Docker installation](#verify-that-docker-engine-is-installed-correctly-by-running-the-hello-world-image).
 ## Linux users
-If you use Ubuntu as your linux distribution you can jump to the [Docker Engine Installation on Ubuntu](#docker-engine-installation-on-ubuntu) section.Instructions for other Linux distributions can be found [here](https://docs.docker.com/engine/install/).
-## For Windows users
-Windows users are recommended to install `Windows Subsystem for Linux` (WSL) and use the Ubuntu terminal for the following steps.
+If you use Ubuntu as your linux distribution you can jump to the [Docker Engine Installation on Ubuntu](#docker-engine-installation-on-ubuntu) section. 
+Instructions for other Linux distributions can be found [here](https://docs.docker.com/engine/install/).
+## Windows users
+It is recommended to install `Windows Subsystem for Linux` (WSL) and use the Ubuntu terminal for this course if you are a windows user.
 ### Windows Subsystem for Linux (WSL) installation
 A summary of the install instructions from the following [reference](https://learn.microsoft.com/en-us/windows/wsl/setup/environment) is given below:
 - Open PowerShell (or Windows Command Prompt) and enter:
@@ -57,11 +59,17 @@ echo \
 sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
-- Verify that Docker Engine is installed correctly by running the `hello-world` image:
+### Verify that Docker Engine is installed correctly by running the `hello-world` image:
+Open a terminal and run the following commands. MacOS users should open the installed Docker Desktop Application before executing the following commands in their terminal.
+- Pull a Docker image from Docker Hub by running:
+```bash
+sudo docker pull hello-world
+```
+- Run the Docker image by running:
 ```bash
 sudo docker run hello-world
 ```
-- If you are unable to run the `hello-world` image, you might need to start the Docker service:
+- If you are unable to run the `hello-world` image, you might need to start the Docker service. MacOS users can do this by typing `docker open` in the terminal. Linux users can start the Docker service by running:
 ```bash
 sudo systemctl start docker
 ```
