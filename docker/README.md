@@ -171,7 +171,7 @@ docker run -it -v /path/on/local/dir:/path/on/container <container_name>
 This is particularly useful for sharing files between the host and the container. In other words, it allows for direct access to the host file system from within the container and for processes running in the container to write directly on the host file system.
 
 
-## Exercise:
+## Exercises:
 1. Pull the minilinux image from Docker Hub by copying the command from the Docker Hub page. Search for the image `tkardocker/docker-git-intro` on Docker Hub.
 2. Run the image and check if it works.
 3. Modify the Dockerfile to install a different version of Python and add a few additional packages, for e.g. numpy, matplotlib, pandas, and jupyter using pip. For this, you will have to first install pip. You can do this by running the following command:

@@ -1,6 +1,6 @@
 # Introduction to Basics of Docker, Git, and Continuous Integration
 
-This tutorial was developed for a block course for bachelor students in Summer 2025.
+This tutorial was developed for a block course for bachelor/master students of Heidelberg University in Summer 2025.
 It gives a basic introduction to Docker, Git, and Continuous Integration.
 
 ## Prerequisites
