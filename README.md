@@ -8,14 +8,17 @@ Please follow the prerequisites installation instructions [here](prereq_install.
 
 ## Clone the Repository
 ```
-git clone git@github.com:tkar-git/docker-git-ci-basics.git
+git clone --recurse-submodules git@github.com:tkar-git/docker-git-ci-basics.git
 ```
-
+- to fetch updates from the submodules, use:
+```
+git submodule update --remote
+```
 ## Docker Introduction
 Is available [here](docker/README.md)
 
 ## Git Introduction
-Is available [here](git/README.md)
+Is available [here](https://github.com/tkar-git/git-playground/tree/master)
 
 ## Contact
 Tamasi Kar: kar@physi.uni-heidelberg.de
