@@ -18,7 +18,7 @@ A summary of the install instructions from the following [reference](https://lea
 ```powershell
 wsl --install
 ```
-- You will be prompted to enter a `username` and `password` for your Linux distribution. This username and password will be used to install and configure software on your Linux distribution.
+- You will be prompted to enter a `username` and `password` for your Linux distribution. This username and password will be used to install and configure software on your Linux distribution, therefore, please remember it.
 - Note that while entering password nothing will appear on the screen. If prompted to restart your computer, restart it.
 - After installation, you can open the Ubuntu terminal by searching for `Ubuntu` in the Windows search bar or just typing `wsl` in the command prompt/powershell.
 ```powershell
