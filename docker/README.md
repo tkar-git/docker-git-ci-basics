@@ -166,7 +166,7 @@ docker cp <container_name>:/home/<USER>/workdir/example_local_file.txt .
 ## Mounting a Local Directory/Volume
 You can also mount a local directory to the container by running:
 ```bash
-docker run -it -v /path/on/local/dir:/path/on/container <container_name>
+docker run -it -v /path/on/local/dir:/path/on/container <image_id>
 ```
 This is particularly useful for sharing files between the host and the container. In other words, it allows for direct access to the host file system from within the container and for processes running in the container to write directly on the host file system.
 

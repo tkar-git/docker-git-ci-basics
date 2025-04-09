@@ -30,7 +30,7 @@ RUN useradd -m ${USERNAME}
 WORKDIR /home/${USERNAME}/my_workdir/
 
 COPY ./Dockerfile /home/${USERNAME}/my_workdir/
-RUN chown ${USERNAME}:${USERNAME} /home/${USERNAME}/my_workdir/Dockerfile
+RUN chown -R ${USERNAME}:${USERNAME} /home/${USERNAME}/my_workdir/
 
 # Set the default command to run when the container starts
 CMD ["bash"]
