@@ -4,12 +4,12 @@ Continuous Integration (CI) is a software development practice where code change
 
 # CI tools
 There are many CI tools available, each with its own features and capabilities. Some popular CI tools include:
-- Jenkins: An open-source automation server that allows developers to build, test, and deploy their code. It has a large ecosystem of plugins and can be easily integrated with other tools.
-- Travis CI: A cloud-based CI service that integrates with GitHub repositories. It is easy to set up and provides a simple configuration file to define the build process.
-- CircleCI: A cloud-based CI service that offers a wide range of features, including parallel testing, Docker support, and integration with various version control systems.
-- GitLab CI: A built-in CI/CD tool in GitLab that allows developers to automate the build, test, and deployment process. It provides a simple configuration file and integrates seamlessly with GitLab repositories.
-- GitHub Actions: A CI/CD tool integrated into GitHub that allows developers to automate workflows directly within their repositories. It supports a wide range of actions and can be easily customized.
-- Azure DevOps: A cloud-based CI/CD service from Microsoft that provides a comprehensive set of tools for building, testing, and deploying applications. It supports various programming languages and integrates with other Azure services.
+- Jenkins
+- Travis CI
+- CircleCI
+- GitLab CI
+- GitHub Actions
+- Azure DevOps
 
 
 ## CI pipeline
